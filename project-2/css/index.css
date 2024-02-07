@@ -1,0 +1,156 @@
+body {
+    background-color: rgb(15, 14, 17);
+}
+
+.img-grindgame {
+    margin: 40px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar {
+    background-color: rgb(15, 14, 17);
+    font-size: 25px;
+    margin: 40px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+
+}
+
+.navbar li a:hover {
+    color: #b30000;
+}
+
+.gif-img {
+    width: 850px;
+    height: 600px;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Media Query for Small Devices (Phones) */
+@media (max-width: 465px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar li {
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .navbar li a {
+        padding: 10px 0;
+        display: block;
+    }
+}
+
+/* Media Query for Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar {
+        flex-direction: row;
+    }
+
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar li a {
+        padding: 10px;
+    }
+}
+
+.line1-box {
+    background: linear-gradient(270deg, #5642E2 0%, #7B00EA 50%, #BD00D4 100%);
+    width: 100%;
+    height: 25px;
+    margin-bottom: 170px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+}
+
+.Grindgame-container {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: #8742e2;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+    margin: 1px;
+}
+
+h2 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 72px;
+    margin: 1px;
+    margin-right: none;
+    color: white;
+}
+
+.lorem-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 300px;
+}
+
+h3 {
+    color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    width: 608px;
+}
+
+.Game-container {
+    margin-left: 200px;
+}
+
+.poster-container {
+    display: flex;
+}
+
+.poster-img {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: -100px;
+    margin-left: 70px;
+}
+
+.seemore-btn {
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    width: 150px;
+    height: 50px;
+    border-radius: 100px;
+    border: 2px #5642E2 solid
+}
